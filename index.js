@@ -22,7 +22,6 @@ const argsDef = [
 ];
 
 const args  = require('command-line-args')(argsDef);
-const usage = require('command-line-usage')({ header: 'Headless screenshot with Puppeteer', optionList: argsDef });
 
 const doCapture = async function doCapture ({
   url,
@@ -78,7 +77,6 @@ const doCapture = async function doCapture ({
 
 if (args.help || !args.url) {
   !args.help && process.stderr.write(`No url provided.${EOL}`);
-  process.stderr.write(usage);
   process.exitCode = 1;
 } else {
   doCapture(args);

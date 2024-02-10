@@ -19,13 +19,9 @@
   "license": "ISC",
   "dependencies": {
     "command-line-args": "~5.2.1",
-    "command-line-usage": "~7.0.1",
     "puppeteer": "^22.0.0"
   },
   "scripts": {
     "version": "git changelog -t $npm_package_version && git add CHANGELOG.md"
-  },
-  "devDependencies": {
-    "eslint": "~8.56.0"
   }
 }
