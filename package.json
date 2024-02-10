@@ -2,7 +2,7 @@
   "name": "puppeteer-screenshot-cli",
   "version": "1.5.0",
   "engines": {
-    "node": ">=6.4.0"
+    "node": ">=10.1.0"
   },
   "description": "Simple wrapper around Puppeteer to take screenshot from command line",
   "repository": "github:mabhub/puppeteer-screenshot-cli",
@@ -18,7 +18,6 @@
   "author": "Benjamin Marguin <npmjs.org@ma-b.com>",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.2",
     "command-line-args": "~5.2.1",
     "command-line-usage": "~7.0.1",
     "puppeteer": "^22.0.0"
